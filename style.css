@@ -37,15 +37,13 @@ header{
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border: 1px solid #202124;
-  margin: 10px;
+  
 }
 .header-right{
     font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border: 1px solid #202124;
 }
 .weapons{
     width: 100%;
