@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RockPaperScissor Game">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>RockPaperScissor</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="header-left">
+            <p>Rock</p>
+            <p>Paper</p>
+            <p>Scissor</p>
+            <p>Spock</p>
+            <p>Lizard</p>
+        </div>
+        <div class="header-right">
+            <p>Computer Score : <span id="systemscore">0</span></p>
+            <p>Your Score : <span id="userscore">0</span></p>
+        </div>
+    </header>
+    <div class="weapons">
+        <button class="design" onclick="clicked('Rock')"><i class="far fa-hand-rock"></i></button>
+        <button class="design"  onclick="clicked('Paper')"><i class="far fa-hand-paper"></i></button>
+        <button class="design"  onclick="clicked('Scissors')"><i class="far fa-hand-scissors"></i></button>
+        <button class="design"  onclick="clicked('Spock')"><i class="far fa-hand-lizard"></i></button>
+        <button class="design"  onclick="clicked('Lizard')">  <i class="far fa-hand-spock"></i></button>
+    </div>
+    <div class="result-footer">
+        <p id="systemchoice"> </p>
+        <p id="userchoice"> </p>
+        <p id="final">  </p>
+    </div>
+    </div>
+   
+    <button class="rulesbutton" id="open">Instructions</button>
+    <div class="openrules" id="contentpage">
+          <div class="content">
+              <div>
+                <button id="close">
+                    <pre><i><a href=""> X </a></i></pre>
+                </button>
+              </div>
+            <img src="./Screenshot (31).png" alt="rule">
+           
+          </div>
+      </div>
+      <div class="winner">
+          <img id="winnerr" src="./—Pngtree—game over you win vector_6007855.png" alt="">
+      </div>
+      <div class="loser">
+          <img id="loserr" src="./—Pngtree—you lose text with neon_6028163.png" alt="">
+      </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
