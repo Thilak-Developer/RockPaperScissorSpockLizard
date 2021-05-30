@@ -263,16 +263,7 @@ header{
           min-width: 25rem;
          }
        
-        .item4{
-          position: absolute;
-          left: 20%;
-          top: 45%;
-        }
-        .item5{
-          position: absolute;
-          right: 20%;
-          top: 45%;
-        }
+       
         .content {
           width: 380px;
           height: auto;
