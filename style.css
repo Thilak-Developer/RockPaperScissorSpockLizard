@@ -263,3 +263,21 @@ header{
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+@media only screen and (min-width: 400px) {
+  .weapons button {
+  
+  
+    background-color: white;
+              color:gold;
+      border: none;
+      font-size: 1.5rem;
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+      
+      
+    }
+  }
