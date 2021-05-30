@@ -221,6 +221,6 @@ header{
     width: 600px;
     height: auto;
   }
-  /* [class*="col-"] {
+  [class*="col-"] {
     width: 100%;
-  } */
+  }
