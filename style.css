@@ -263,9 +263,9 @@ header{
        
         .content {
           width: 380px;
-          height: auto;
-          position:absolute;
-          right: 25px;
+          /* height: auto; */
+          position:relative;
+          right: 105px;
           top: 20px;
           
         }
