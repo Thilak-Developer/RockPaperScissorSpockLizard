@@ -297,7 +297,7 @@ header{
           border-radius: 10px;
           background-color:transparent;
           color: #202124;
-          font-size: 5px;
+          font-size: 8px;
           font-family: inherit;
           padding: 5px 13px;
           position: absolute;
@@ -327,6 +327,7 @@ header{
           border-radius: 50%;
           outline: none;
           cursor: pointer;
+          margin-right: 5px;
           
           
         }
