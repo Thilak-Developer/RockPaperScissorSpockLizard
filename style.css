@@ -266,6 +266,11 @@ header{
       }
       @media only screen and (max-width: 487px) {
        
+          body{
+            overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+          }
        
        
         .content {
