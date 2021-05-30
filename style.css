@@ -223,7 +223,7 @@ header{
   }
   @media only screen and (max-width: 368px) {
     /* For mobile phones: */
-    [class*="col-"] {
+    body {
       width: 100%;
     }
   }
