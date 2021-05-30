@@ -265,7 +265,8 @@ header{
           width: 380px;
           height: auto;
           position:absolute;
-          right: 5px;
+          right: 1px;
+          bottom: 5px;
         }
         .content img{
           width: 280px;
