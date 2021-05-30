@@ -18,7 +18,8 @@
     <title>RockPaperScissor</title>
 </head>
 <body > 
-    <div class="container col-1">
+    <div class="col-1">
+    <div class="container">
     <header>
         <div class="header-left">
             <p>Rock</p>
@@ -32,22 +33,22 @@
             <p>Your Score : <span id="userscore">0</span></p>
         </div>
     </header>
-    <div class="weapons col-1">
+    <div class="weapons ">
         <button class="design" onclick="clicked('Rock')"><i class="far fa-hand-rock"></i></button>
         <button class="design"  onclick="clicked('Paper')"><i class="far fa-hand-paper"></i></button>
         <button class="design"  onclick="clicked('Scissors')"><i class="far fa-hand-scissors"></i></button>
         <button class="design"  onclick="clicked('Spock')"><i class="far fa-hand-lizard"></i></button>
         <button class="design"  onclick="clicked('Lizard')">  <i class="far fa-hand-spock"></i></button>
     </div>
-    <div class="result-footer col-1">
+    <div class="result-footer ">
         <p id="systemchoice"> </p>
         <p id="userchoice"> </p>
         <p id="final">  </p>
     </div>
     </div>
    
-    <button class="rulesbutton col-1 " id="open">Instructions</button>
-    <div class="openrules col-1" id="contentpage">
+    <button class="rulesbutton  " id="open">Instructions</button>
+    <div class="openrules" id="contentpage">
           <div class="content">
               <div>
                 <button id="close">
@@ -64,7 +65,7 @@
       <div class="loser">
           <img id="loserr" src="./—Pngtree—you lose text with neon_6028163.png" alt="">
       </div>
-
+    </div>
     <script src="./scripts.js"></script>
 </body>
 </html>
