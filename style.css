@@ -264,10 +264,13 @@ header{
         .content {
           width: 380px;
           height: auto;
+          position:absolute;
+          right: 5px;
         }
         .content img{
           width: 280px;
           height: auto;
+
         }
         .sss{
           display: flex;
