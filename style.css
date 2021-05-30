@@ -15,6 +15,7 @@ body{
   font-family: 'ZCOOL KuaiLe', cursive;
   height: 100vh;
   min-width: 40rem;
+  overflow-x: hidden;
 }
 .container{
     width: 65%;
@@ -52,7 +53,7 @@ header{
     margin: 0;
 }
  .weapons button {
-  
+  -webkit-tap-highlight-color: transparent;
   
   background-color: white;
             color:gold;
@@ -119,6 +120,7 @@ header{
     letter-spacing: 2px;
     text-transform: uppercase;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   .rulesbutton:hover, 
   .rulesbutton:focus {
@@ -156,6 +158,7 @@ header{
     border: none;
     transform: scale(2.5);
     float: right;
+    -webkit-tap-highlight-color: transparent;
   }
   .content img{
     width: 600px;
@@ -302,7 +305,7 @@ header{
           font-family: inherit;
           padding: 5px 13px;
           position: absolute;
-          
+          -webkit-tap-highlight-color: transparent;
           bottom: 10px;
           /* right: 10px;  */
           letter-spacing: 2px;
@@ -317,7 +320,7 @@ header{
           padding: 1px;
       }
        .weapons button {
-        
+        -webkit-tap-highlight-color: transparent;
         
         background-color: white;
                   color:gold;
