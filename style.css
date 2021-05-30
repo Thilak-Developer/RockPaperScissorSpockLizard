@@ -221,7 +221,7 @@ header{
     width: 600px;
     height: auto;
   }
-  @media only screen and (max-width: 468px) {
+  @media only screen and (max-width: 368px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
