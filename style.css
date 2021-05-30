@@ -265,14 +265,27 @@ header{
           width: 380px;
           height: auto;
           position:absolute;
-          right: 1px;
-          bottom: 5px;
+          right: 25px;
+          top: 20px;
+          
         }
         .content img{
           width: 280px;
           height: auto;
 
         }
+        .content a{
+          text-decoration: none;
+          color: white;
+          font-size: x-small;
+      
+        }
+        #close{
+          font-family: sans-serif;
+          background-color: transparent;
+          border-radius: 50px;
+        }
+        
         .sss{
           display: flex;
           justify-content: center;
