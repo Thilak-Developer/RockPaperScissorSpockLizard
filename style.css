@@ -257,11 +257,7 @@ header{
         .col-12 {width: 100%;}
       }
       @media only screen and (max-width: 487px) {
-        .container{
-          width:10%;
-          height: 90%;
-          min-width: 25rem;
-         }
+       
        
        
         .content {
