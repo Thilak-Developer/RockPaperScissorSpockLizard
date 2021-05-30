@@ -50,14 +50,11 @@ header{
     justify-content: space-between;
     margin: 0;
 }
-.weapons button {
-  /* background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
-  background-color: #fbb034;
-  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+ .weapons button {
   
   
-            color: rgb(255, 255, 255);
+  background-color: white;
+            color:gold;
     border: none;
     font-size: 5rem;
     height: 8rem;
@@ -66,7 +63,10 @@ header{
     outline: none;
     cursor: pointer;
     
+    
   }
+  
+
   .design:hover, 
 .design:focus {
   margin-top: 0px;
